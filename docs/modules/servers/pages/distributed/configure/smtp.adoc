@@ -151,7 +151,7 @@ optionally set the verifyIdentity element of the smtpserver configuration block 
 === Verification
 
 Verify that you have not inadvertently configured your server as an open relay. This is most easily
-accomplished by using the service provided at https://mxtoolbox.com/diagnostic.aspx[mxtoolbox.com]. mxtoolbox.com will
+accomplished by using the service provided at https://mxtoolbox.com/diagnostic.aspx[mxtoolbox.com] or https://www.socketlabs.com/smtp-server-connection-diagnostics-tool/[socketlabs.com]. mxtoolbox.com and socketlabs.com will
 check your mail server and inform you if it is an open relay. This tool further more verifies additional propertiess like:
 
 * Your DNS condifuration, especially that you mail server IP has a valid reverse DNS entry
